@@ -30,3 +30,7 @@ hide_streamlit_style = """
             </style>
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+st.set_page_config(
+        page_title='공생마케팅 남은 일자 조회하기',
+        page_icon="😍",
+        )
