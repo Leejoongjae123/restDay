@@ -2,6 +2,7 @@ import streamlit as st
 from datetime import datetime, timedelta
 import random
 
+st.set_page_config(page_title="남은 일자 조회하기",page_icon="😍")
 # 앱의 타이틀 설정
 st.title('남은 일자 조회하기 ✅')
 
@@ -23,4 +24,4 @@ if st.button('조회'):
 st.sidebar.header('안내')
 st.sidebar.text('공생마케팅을 통해서 계약하신 서비스의')
 st.sidebar.text('잔여일을 조회할 수 있습니다.')
-st.set_page_config(page_title="남은 일자 조회하기")
+
