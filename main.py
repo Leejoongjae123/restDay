@@ -23,11 +23,4 @@ if st.button('조회'):
 st.sidebar.header('안내')
 st.sidebar.text('공생마케팅을 통해서 계약하신 서비스의')
 st.sidebar.text('잔여일을 조회할 수 있습니다.')
-hide_streamlit_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            </style>
-            <meta name="공생마케팅 남은 일자 조회하기" content="남은 서비스 일자를 조회하세요:)" />
-            """
-st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+st.set_page_config(page_title="남은 일자 조회하기")
